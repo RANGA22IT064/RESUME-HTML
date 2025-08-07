@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:rgb(184, 241, 231) ;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: linear-gradient(120deg, #f7ff9a, #2b2827);
+
+            }
+            .card{
+             
+                width: 300px;
+                padding: 10px;
+                border-radius: 20px;
+                text-align: center;
+                
+             
+                transition:transform 0.5s;
+            }
+            .card:hover{
+                transform: scale(1.05);
+            }
+            .card img{
+                width: 100px;
+                height: 100px;
+                 border-radius: 100px;
+                 border: solid rgb(190, 190, 255);
+                 /* margin-bottom: 10px; */
+            }
+            .card h2{
+                color: rgb(4, 26, 26);
+                margin: 18px;
+            }
+            .card p{
+                color: rgb(16, 97, 97);
+                font-size: 18px;
+                font-weight: bolder;
+            }
+            .card button{
+                padding:3px 20px;
+                background-color: rgb(76, 255, 163);
+                border-radius: 50px;
+                border: 0cap;
+                color: rgb(255, 64, 0);
+                cursor: pointer;
+                transition: background 0.5s;
+                font-weight: bolder;
+            }
+            .card button:hover{
+                background:rgb(0, 220, 0) ;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="roman.png" alt="logo" >
+        <h2>Ranga</h2>
+        <p>Web Tech Dev</p>
+        <button >Click</button>
+    </div>
+</body>
+</html>
